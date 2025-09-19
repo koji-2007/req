@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<head>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .container { max-width: 700px; margin: auto; border: 1px solid #333; padding: 30px; }
+        h2, h3 { text-align: center; }
+        .section-title { font-weight: bold; margin-top: 24px; }
+        .form-table { width: 100%; border-collapse: collapse; }
+        .form-table td { padding: 6px 2px; vertical-align: top; }
+        .signature { margin-top: 40px; display: flex; justify-content: space-between; }
+        .signature div { text-align: center; width: 30%; }
+        .note { font-size: 0.9em; margin-top: 18px; }
+        .right-box { float: right; border: 1px solid #333; padding: 10px 20px; margin-top: -60px; margin-right: 10px;}
+    </style>
+</head>
+<body>
+<div class="container">
+    <div style="display:flex; align-items: center;">
+        <!-- Ganti src di bawah dengan file logo IGASAR Anda -->
+        <div style="width:100%; text-align:center;">
+            <h2 style="margin:0;">FORMULIR PENDAFTARAN</h2>
+            <h3 style="margin:0;">CALON SISWA/SISWI MTs. ................................<br>TAHUN PELAJARAN 2016/2017</h3>
+            <div style="font-size:0.95em;">
+                Sekretariat : Jln. ............................. Kode Pos : ..........<br>
+                Email : .............@yahoo.co.id<br>
+                Website : http://..................com
+            </div>
+        </div>
+        <div class="right-box">
+            No.<br>Pendaftaran
+        </div>
+    </div>
+    <form>
+        <div class="section-title">A. DATA PRIBADI CALON SISWA</div>
+        <table class="form-table">
+            <tr><td>1. Nama Lengkap</td><td>: <input type="text" name="nama_lengkap" style="width:70%"></td></tr>
+            <tr><td>2. Jenis Kelamin</td><td>: <input type="text" name="jenis_kelamin" style="width:70%"></td></tr>
+            <tr><td>3. Tempat Tgl. Lahir</td><td>: <input type="text" name="tempat_tgl_lahir" style="width:70%"></td></tr>
+            <tr><td>4. Alamat</td><td>: <input type="text" name="alamat_siswa" style="width:70%"></td></tr>
+            <tr><td>5. Anak ke</td>
+                <td>: <input type="text" name="anak_ke" style="width:10%">
+                    dari <input type="text" name="jumlah_bersaudara" style="width:10%"> bersaudara
+                </td>
+            </tr>
+        </table>
+
+        <div class="section-title">B. DATA ORANGTUA/WALI CALON SISWA</div>
+        <table class="form-table">
+            <tr><td>1. Nama Ayah</td><td>: <input type="text" name="nama_ayah" style="width:70%"></td></tr>
+            <tr><td>2. Nama Ibu</td><td>: <input type="text" name="nama_ibu" style="width:70%"></td></tr>
+            <tr><td>3. Pekerjaan Ayah</td><td>: <input type="text" name="pekerjaan_ayah" style="width:70%"></td></tr>
+            <tr><td>4. Pekerjaan Ibu</td><td>: <input type="text" name="pekerjaan_ibu" style="width:70%"></td></tr>
+            <tr><td>5. Alamat</td><td>: <input type="text" name="alamat_orangtua" style="width:70%"></td></tr>
+            <tr><td>6. No. Telp/HP</td><td>: <input type="text" name="telp_hp" style="width:70%"></td></tr>
+            <tr><td>7. Nama Wali</td><td>: <input type="text" name="nama_wali" style="width:70%"></td></tr>
+            <tr><td>8. Pekerjaan Wali</td><td>: <input type="text" name="pekerjaan_wali" style="width:70%"></td></tr>
+            <tr><td>9. Alamat Wali</td><td>: <input type="text" name="alamat_wali" style="width:70%"></td></tr>
+        </table>
+
+        <div class="section-title">C. ASAL SEKOLAH</div>
+        <table class="form-table">
+            <tr><td>1. Nama Sekolah</td><td>: <input type="text" name="nama_sekolah" style="width:70%"></td></tr>
+            <tr><td>2. Status Sekolah</td><td>: <input type="text" name="status_sekolah" style="width:70%"></td></tr>
+            <tr><td>3. Alamat Sekolah</td><td>: <input type="text" name="alamat_sekolah" style="width:70%"></td></tr>
+            <tr><td>4. NSS</td><td>: <input type="text" name="nss" style="width:70%"></td></tr>
+            <tr><td>5. Nomor Peserta UN SD</td><td>: <input type="text" name="no_peserta_un" style="width:70%"></td></tr>
+        </table>
+
+        <div class="section-title">D. DATA SKHU/IJAZAH</div>
+        <table class="form-table">
+            <tr><td>1. Nomor SKHU</td><td>: <input type="text" name="nomor_skhu" style="width:70%"></td></tr>
+            <tr><td>2. Jumlah Nilai UN</td><td>: <input type="text" name="jumlah_nilai_un" style="width:70%"></td></tr>
+            <tr><td>3. Nilai Rata-rata UN</td><td>: <input type="text" name="nilai_rata_rata_un" style="width:70%"></td></tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

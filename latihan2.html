@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Latihan2</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: auto;
+        }
+        td {
+            border: 1px solid black;
+            padding: 4px 8px;
+        }
+        h1 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2.5em;
+        }
+    </style>
+</head>
+<body>
+     <h1>Contoh atribut colspan dan rowspan</h1>
+    <table>
+        <tr>
+            <td>Baris 1, Kolom 1</td>
+            <td>Baris 1, Kolom 2</td>
+            <td>Baris 1, Kolom 3</td>
+        </tr>
+        <tr>
+            <td>Baris 2, Kolom 1</td>
+            <td colspan="2">Baris 2, Kolom 2 &amp; 3</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Baris 3 &amp; 4, Kolom 1</td>
+            <td>Baris 3, Kolom 2</td>
+            <td>Baris 3, Kolom 3</td>
+        </tr>
+        <tr>
+            <td>Baris 4, Kolom 2</td>
+            <td>Baris 4, Kolom 3</td>
+        </tr>
+    </table>
+</body>
+</html>

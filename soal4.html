@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Playlist</title>
+    <style>
+         body {
+            font-family: Times New Roman, serif;
+            background: #fff;
+        }
+        .header {
+            background: url('musik-bg.jpg') center/cover no-repeat;
+            color: #161313;
+            text-align: center;
+            padding: 30px 0 10px 0;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .header p {
+            margin: 0;
+            font-size: 1em;
+        }
+        .playlist-table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 80%;
+            background: #ffffff;
+        }
+        .playlist-table th, .playlist-table td {
+            border: 1px solid #0e0e0e;
+            padding: 8px 10px;
+            text-align: left;
+        }
+        .playlist-table th {
+            background: #ffffff;
+            font-weight: bold;
+        }
+        .audio-cell {
+            width: 220px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>My Playlist</h1>
+        <p>by Aji | XI-PPLG</p>
+    </div>
+    <table class="playlist-table">
+        <tr>
+            <th>No</th>
+            <th>Artist</th>
+            <th>Judul Lagu</th>
+            <th>Audio Lagu</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Rancid</td>
+            <td>Fall Back Down</td>
+            <td class="audio-cell">
+                <audio controls>
+                    <source src="c:\Users\RPL Lab(1)-03\Pictures\Saved Pictures\audio.mp3.m4a" type="audio/mpeg">
+                    Browser Anda tidak mendukung audio.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Green Day</td>
+            <td>Boulevard Of Broken Dreams</td>
+            <td class="audio-cell">
+                <audio controls>
+                    <source src="c:\Users\RPL Lab(1)-03\Pictures\Saved Pictures\audio2.mp3.mp3" type="audio/mpeg">
+                    Browser Anda tidak mendukung audio.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Metallica</td>
+            <td>Enter Sadman</td>
+            <td class="audio-cell">
+                <audio controls>
+                    <source src="c:\Users\RPL Lab(1)-03\Pictures\Saved Pictures\audio3.mp3.m4a" type="audio/mpeg">
+                    Browser Anda tidak mendukung audio.
+                </audio>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
